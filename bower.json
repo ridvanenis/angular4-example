@@ -1,0 +1,20 @@
+{
+  "name": "angular4",
+  "description": "bower_components",
+  "main": "",
+  "authors": [
+    "Ridvan ENIS <ridvan.enis@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
