@@ -20,7 +20,7 @@ export class RecipesService {
       ]),
     new Recipe('Another Recipe',
       'Test Recipe',
-      'http://www.macsween.co.uk/media/1148/mac-recipe-3.jpg?crop=0.0000000000000001263187085796,0.15111111111111108,0,0.43222222222222229&cropmode=percentage&width=1200&height=500&rnd=130540467520000000',
+      'https://static01.nyt.com/images/2014/01/06/dining/recipes-wildmushroomstew/recipes-wildmushroomstew-articleLarge.jpg',
       [
         new Ingredient('Meat', 1),
         new Ingredient('Buns', 2)
