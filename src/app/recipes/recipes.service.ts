@@ -2,7 +2,7 @@ import {Recipe} from './model/recipe.model';
 import {Injectable} from '@angular/core';
 import {Ingredient} from '../shared/ingredient.model';
 import {ShoppingListService} from '../shopping-list/shopping-list.service';
-import {Subject} from "rxjs/Subject";
+import {Subject} from 'rxjs/Subject';
 
 @Injectable()
 export class RecipesService {
@@ -26,6 +26,11 @@ export class RecipesService {
         new Ingredient('Buns', 2)
       ])
   ];
+
+  setRecipes(newRecipes: Recipe[]) {
+    this.recipes = newRecipes;
+    this.recipesChanged.next(this.recipes.slice());
+  }
 
   getRecepies() {
     return this.recipes.slice();
